@@ -1,0 +1,22 @@
+{
+  "name": "cf-dns-update-ts",
+  "version": "1.0.0",
+  "description": "Project to update programmatically DNS of specific domains in CloudFlare",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Cámara",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "better-logging": "^3.5.0",
+    "yaml": "^1.7.2"
+  }
+}

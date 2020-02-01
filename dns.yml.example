@@ -1,0 +1,7 @@
+---
+dns_record_types:
+  - TYPE1
+domains:
+  - DOMAIN1
+email: CF_EMAIL
+key: CF_KEY
